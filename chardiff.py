@@ -11,8 +11,8 @@ def isSubSequence(string1, string2, m, n):
     return isSubSequence(string1, string2, m, n-1)
  
 # Driver program to test the above function
-string1 = "gksrek"
-string2 = "geeksforgeeks"
+string1 = "hello_world"
+string2 = "hello"
 m = len(string1)
 n = len(string2)
 if isSubSequence(string1, string2, m, n):
